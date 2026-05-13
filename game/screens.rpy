@@ -359,7 +359,7 @@ screen main_menu():
 
     add gui.main_menu_background
 
-    add "images/logowhiteengshadow.png" zoom 0.5 xalign 1.0 yalign 1.0 yoffset 80 xoffset 30
+    add "images/logowhiterusshadow.png" zoom 0.4 xalign 1.0 yalign 1.0 yoffset 30 
 
     ## Эта пустая рамка затеняет главное меню.
     frame:
