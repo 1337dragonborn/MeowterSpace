@@ -12,7 +12,7 @@
 ##
 ## Символы "_()", окружающие название, отмечают его как пригодное для перевода.
 
-define config.name = _("Meowter Space")
+define config.name = _("Котокосмос")
 
 
 ## Определяет, показывать ли заголовок, данный выше, на экране главного меню.
@@ -23,14 +23,14 @@ define gui.show_name = True
 
 ## Версия игры.
 
-define config.version = "1.0"
+define config.version = "1.1"
 
 
 ## Текст, помещённый в экран "Об игре". Поместите текст между тройными скобками.
 ## Для отделения абзацев оставляйте между ними пустую строку.
 
 define gui.about = _p("""
-""")
+КОТОКОСМОС (2026)\n\nАвторы:\n\nАртём "DASH" Суханов\n\nМария Хватик\n\nЕлизавета Кузнецова\n\nАрина Внукова\n\nМихаил "dragonborn" Ковшиков """)
 
 
 ## Короткое название игры, используемое для исполняемых файлов и директорий при
@@ -121,7 +121,7 @@ define config.window_hide_transition = Dissolve(.2)
 ## в то время как любая другая цифра — это количество символов, печатаемых в
 ## секунду.
 
-default preferences.text_cps = 0
+default preferences.text_cps = 35
 
 
 ## Стандартная задержка авточтения. Большие значения означают долгие ожидания, а
@@ -151,7 +151,7 @@ define config.save_directory = "MeowterSpace-1777222614"
 ##
 ## Иконка, показываемая на панели задач или на dock.
 
-define config.window_icon = "gui/window_icon.png"
+define config.window_icon = "gui/msicon.png"
 
 
 ## Настройка Дистрибутива ######################################################
@@ -211,7 +211,5 @@ init python:
 ## разделённые дробью.
 
 # define build.itch_project = "renpytom/test-project"
-
-default preferences.text_cps = 35
 
 define config.main_menu_music = "mainmenu.ogg"
